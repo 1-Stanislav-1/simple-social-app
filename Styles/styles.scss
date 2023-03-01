@@ -1,0 +1,22 @@
+@import "Home",
+	"SignIn",
+	"SignUp",
+	"Account",
+	"AccountEdit",
+	"People";
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	cursor: default;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.selected {
+	transform: scale(1.15);
+	color: grey !important;
+}

@@ -1,0 +1,50 @@
+.SignIn {
+	position: relative;
+	width: 80%;
+	margin: 90px auto 0;
+
+	form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		label {
+			font-size: 20px;
+
+			input {
+				display: block;
+				width: 240px;
+				margin: 15px 0 70px;
+				padding: 10px 15px;
+				border: 1px solid lightgrey;
+				border-radius: 20px;
+				outline: none;
+				font-size: 17px;
+
+				&:focus {
+					border: 1px solid grey;
+				}
+			}
+		}
+
+		.SignIn-message {
+			position: absolute;
+			bottom: 70px;
+			color: red;
+		}
+
+		button {
+			align-self: center;
+			width: 100px;
+			padding: 10px 15px;
+			border: 1px solid lightgrey;
+			border-radius: 20px;
+			font-size: 18px;
+			transition: .3s;
+
+			&:hover {
+				background: white;
+			}
+		}
+	}
+}

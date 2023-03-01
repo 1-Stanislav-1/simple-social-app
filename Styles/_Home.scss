@@ -1,0 +1,35 @@
+.Home {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+
+	.Home-panel {
+		width: 500px;
+		height: 700px;
+		border: 1px solid lightgrey;
+		border-radius: 20px;
+		background: linear-gradient(to bottom right, rgba(230, 255, 236, 0.575) 40%, rgba(252, 216, 246, 0.671));
+
+		nav {
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			width: 80%;
+			height: 70px;
+			margin: 100px auto 0;
+			border-top: 1px solid grey;
+			border-bottom: 1px solid grey;
+	
+			h2 {
+				color: lightgrey;
+				transition: .3s;
+
+				&:hover {
+					transform: scale(1.15);
+				}
+			}
+		}
+	}
+}

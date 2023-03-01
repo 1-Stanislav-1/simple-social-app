@@ -1,0 +1,86 @@
+.Account {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+
+	.Account-panel {
+		position: relative;
+		width: 900px;
+		height: 700px;
+		border: 1px solid lightgrey;
+		border-radius: 20px;
+		background: linear-gradient(to bottom right, rgba(230, 255, 236, 0.575) 40%, rgba(252, 216, 246, 0.671));
+
+		h1 {
+			margin: 70px 0 0 270px;
+			font-size: 60px;
+			font-weight: 400;
+		}
+
+		.Account-navigation {
+			position: absolute;
+			top: 250px;
+			left: 80px;
+
+			button {
+				display: block;
+				margin-bottom: 40px;
+				background: none;
+				color: grey;
+				font-size: 35px;
+				border: none;
+				transition: .3s;
+
+				&:hover {
+					color: black;
+				}
+			}
+		}
+
+		.Account-userCard {
+			position: absolute;
+			top: 250px;
+			left: 270px;
+
+			.Account-image {
+				width: 250px;
+				height: 250px;
+				border: 5px solid lightgrey;
+				border-radius: 50%;
+			}
+
+			.Account-name {
+				position: absolute;
+				top: 60px;
+				left: 310px;
+				width: 200px;
+				font-size: 25px;
+			}
+
+			.Account-age {
+				position: absolute;
+				top: 160px;
+				left: 310px;
+				width: 200px;
+				font-size: 25px;
+			}
+
+			button {
+				position: absolute;
+				top: 330px;
+				left: 410px;
+				color: grey;
+				font-size: 35px;
+				border: none;
+				background: transparent;
+				transition: .3s;
+
+				&:hover {
+					color: black;
+				}
+			}
+		}
+	}
+}
